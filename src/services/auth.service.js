@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://cors-anywhere.herokuapp.com/https://sports-shop-api.herokuapp.com/api/auth/";
+const API_URL = "https://sports-shop-api.herokuapp.com/api/auth/";
 
 const register = (username, email, password) => {
     return axios.post(API_URL + "signup", {
