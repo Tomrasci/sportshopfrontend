@@ -1,7 +1,7 @@
 import http from "../http-common";
 import authHeader from "./auth-header";
 
-const API_URL = "https://obscure-bastion-29177.herokuapp.com/https://sports-shop-api.herokuapp.com/api";
+const API_URL = "https://cors-anywhere.herokuapp.com/https://sports-shop-api.herokuapp.com/api";
 
 const getAll = () => {
   return http.get(API_URL + "/sports");
